@@ -1,0 +1,336 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    }
+   
+    .section1 {
+      display: flex;
+      background-color: #292929;
+      color: white;
+      padding-left: 167px;
+      font-family: century gothic;
+  }
+  
+  .section1 img{
+      width: 118px;
+      height: 78px;
+  }
+  ul {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: end;
+  }
+  li {
+      margin-right: 66px;
+  }
+  
+  a.button-buy {
+      color: black;
+      padding: 11px;
+      background-color: white;
+      text-decoration: none;
+  }
+  .section2 {
+      background-image: url(https://www.namesnack.com/images/namesnack-hotel-business-names-4368x2912-20200915.jpeg?crop=4:3,smart&width=1200&dpr=2);
+      background-size: cover;
+      width: 100%;
+      padding-bottom: 430px;
+      
+  }
+  .section2 h1 {
+      padding-left: 364px;
+      padding-top: 349px;
+      font-size: 81px;
+      color: white;
+      text-shadow: 2px 3px 12px #000000;
+      font-family: Goudy old style;
+  }
+  .subsection2 {
+      display: flex;
+      padding-left: 421px;
+      padding-top: 50px;
+      font-family: Goudy old style;
+  }
+  .section2 table {
+      padding: 5px;
+      border-collapse: collapse;
+      width: 64%;
+  }
+  .section2 th {
+      padding: 10px;
+  }
+  th{
+      background-color: white;
+  }
+  .section2 td {
+      padding: 28px;
+      background-color: white;
+      font-size: 40px;
+      padding-left: 65px;
+  }
+  .check{
+      background-color:#494848;
+      color:white;
+  }
+  td::after {
+      content: "";
+      border: 1px solid gray;
+      position: relative;
+      left: 82px;
+  }
+  .section3 {
+      display: flex;
+      width: 100%;
+      height: 500px;
+      background-color: black;
+  }
+  .section3 img {
+      height: 500px;
+  
+  }
+  .subsection3b {
+      width: 50%;
+      color: white;
+  }
+  p.part1 {
+      font-size: 49px;
+      padding-left: 50px;
+      padding-top: 21px;
+      font-family: Goudy old style;
+  }
+  p.part2 {
+      color: #FFB95B;
+      font-size: 49px;
+      font-family: Goudy old style;
+      padding-left: 52px;
+  }
+  .subsection3b td {
+      height: 220px;
+      padding-top: 30px;
+      padding-left: 42px;
+      padding-right: 55px;
+      font-size: 18px;
+      color: gray;
+  }
+  .button3 {
+      background-color: #404040;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 22px 44px;
+      font-family: century gothic;
+      cursor: pointer;
+  }
+  .section4 {
+      
+  }
+  .section4 h1 {
+      text-align: center;
+      width: 100%;
+      padding-top: 30px;
+      font-size: 50px;
+      font-family: Goudy old style;
+  }
+  .gallery {
+      padding-left: 86px;
+      padding-top: 20px;
+  }
+  div.desc {
+      padding: 15px;
+      width: 600px;
+      border: 1px solid lightgray;
+      margin-top: -3px;
+      padding-top: 20px;
+      font-size: 17px;
+      font-family: Goudy Old style;
+  }
+  .desc h3 {
+      font-size: 38px;
+  }
+  .desc p {
+      padding-top: 6px;
+  }
+  .button4 {
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 9px 39px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 22px -5px;
+      font-family: century gothic;
+      cursor: pointer;
+  }
+  .subsection4a {
+      width: 50%;
+      display: flex;
+      float: left;
+  }
+  .subsection4b {
+      display: flex;
+      flex-direction: column;
+      padding-top: 19px;
+  }
+  .part3 {
+      display: inline-block;
+      
+  }
+  .subsection4b img {
+      height: 315px;
+      width: 289px;
+  }
+  .section5 {
+      background-image: url(https://c1.wallpaperflare.com/preview/973/727/787/hotel-neon-sign-neon-light-city.jpg);
+      background-size: cover;
+      height: 545px;
+      font-family: goudy old style;
+      
+  }
+  .section5 h1 {
+      color: white;
+      display: flex;
+      padding-left: 578px;
+      padding-top: 50px;
+      font-size: 46px;
+      font-family: goudy old style;
+  }
+  .gallery-hotel {
+      margin-top: 50px;
+      width: 17%;
+      height: 53%;
+      margin-left: 93px;
+      float: left;
+      display: inline;
+  }
+  .gallery-hotel1 {
+      background-color: #C19770;
+      height: 45%;
+      padding-top: 11px;
+      padding-left: 20px;
+      color: white;
+  }
+  .desc-hotel {
+      background-color: white;
+      height: 42%;
+      padding-top: 9px;
+      padding-left: 21px;
+  }
+  .section5 h6 {
+      font-size: 13px;
+      padding-bottom: 2px;
+      padding-top: 7px;
+  }
+  .gallery-hotel1 p{
+      font-size: 27px;
+      padding-bottom: 7px;
+  }
+  .desc-hotel {
+      background-color: white;
+      height: 42%;
+      padding-top: 9px;
+      padding-left: 15px;
+      font-size: 17px;
+  }
+  
+  
+  
+  @media screen and (max-width:768px){
+  
+      .section1 {
+      width: 203%;
+      display: block;
+      padding-left: 54px ;
+  
+  }
+  .section1 img {
+      margin-left: 230px;
+  }
+  
+  li {
+      
+      margin-top: 22px;
+      margin-bottom: 14px;
+      margin-right: 73px;
+  }
+  
+          .section2{
+              width:203%;
+              background-position: top;
+          }
+          .section2 h1 {
+      padding-left: 100px;
+      padding-top: 383px;
+      font-size: 57px;
+     
+  }
+  .subsection2{
+      padding-left: 89px;
+      width: 136%;
+  }
+  td::after {
+      left: 56px;
+  }
+  .section3 {
+      display: block;
+  }
+  .section3 img {
+      width: 204%;
+  }
+  .subsection3b {
+      width: 205%;
+      float: left;
+      display: block;
+      margin-top: -4px;
+      background-color: black;
+      padding-bottom: 26px;
+  }
+  .section4 h1 {
+      padding-top: 499px;
+      margin-left: 150px;
+  }
+  .subsection4a {
+      width: 100%;
+      display: block;
+   
+  }
+  .subsection4b {
+      display: block;
+      padding-top: 675px;
+      margin-left: 66px;
+  }
+  .part3 {
+      display: flex;
+      flex-direction: unset;
+      margin-bottom: 18px;
+  }
+  .part4 {
+      display: flex;
+      flex-direction: row;
+  }
+  .section5 {
+      width: 202%;
+      background-position: bottom;
+      height: 817px;
+  }
+  .section5 h1 {
+      padding-left: 236px;
+      padding-top: 50px;
+      
+  }
+  .gallery-hotel{
+      width: 33%;
+      height: 35%;
+      margin-left: 78px;
+      display: block;
+  }
+  
+  }
+  
